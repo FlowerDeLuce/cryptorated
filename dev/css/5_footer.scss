@@ -1,0 +1,165 @@
+.footer{
+
+   
+    background: #07457c;
+    color:  #f5f5f5;
+    position: relative;
+   
+}
+
+.footer-top{
+    padding: 30px 0;
+}
+
+.footer__logo-img, .footer__logo-img{
+    display: block;
+    width: 300px;
+    height: 64px;
+}
+
+.footer__logo{
+    margin-bottom: 25px;
+}
+
+.footer-follow{
+    margin-bottom: 20px;
+}
+
+.footer__social-icon{
+    width: 40px;
+    height: 40px;
+    transition: all 0.5s;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.footer__social-list{
+    max-width: 240px;
+}
+
+.footer__social-icon:last-child{
+    margin-right: 0;
+}
+
+.footer__social-icon:hover{
+  
+    transition: all 0.5s;
+}
+
+.footer__social-icon svg .cls-1{
+    fill: #fff;
+    transition: all 0.5s;
+}
+
+.footer__social-icon svg .cls-2{
+    fill: #07457c;
+   transition: all 0.5s;
+}
+
+.footer__social-icon:hover svg .cls-1{
+    fill: #07457c;
+    transition: all 0.5s;
+}
+
+.footer__social-icon:hover svg .cls-2{
+    fill: #fff;
+   transition: all 0.5s;
+}
+
+
+
+.footer__menu-link, .footer__submenu-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+     margin-bottom: 10px;
+    display: block;
+}
+
+
+
+.footer__submenu-item{
+    margin-left: 20px;
+    position: relative;
+  
+}
+
+.footer__submenu-item:before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 3px;
+    height: 3px;
+    background: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+}
+
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_mobile-right{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 257px);
+    padding-left: 80px;
+}
+
+.footer-btn{
+    border-color: #07457c;
+    color: #1e73be;
+    margin-top: 35px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.footer__right-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+
+.footer__email-input{
+    width: 325px;
+    height: 40px;
+    padding: 10px;
+    font-family: "Raleway";
+    background: #fff;
+    border: none;
+    -webkit-appearance: none;
+}
+
+.footer-lable{
+    display: block;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.copyright{
+    color:  #f5f5f5;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.copyright:before{
+    content: '';
+    display: block;
+    height: 1px;
+    background: url(../img/footerLine.svg);
+    background-size: contain;
+    position: relative;
+    top: -20px;
+}
+

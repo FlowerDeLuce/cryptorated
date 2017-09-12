@@ -1,0 +1,77 @@
+/**
+custom-icons Webfont
+*/
+
+@font-face {
+    font-family: 'custom-icons';
+    src: url('../fonts/custom-icons.eot?1505196561742');
+    src: url('../fonts/custom-icons.eot?#iefix-1505196561742') format('embedded-opentype'), url('../fonts/custom-icons.woff2?1505196561742') format('woff2'), url('../fonts/custom-icons.woff?1505196561742') format('woff'), url('../fonts/custom-icons.ttf?1505196561742') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^='icon-']:before,
+[class*=' icon-']:before {
+    font-family: 'custom-icons';
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    speak: none;
+    text-decoration: inherit;
+    font-size: inherit;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*
+Glyphs list
+*/
+
+.icon-Bitcoin:before {
+        content: '\ea01';
+    }
+    .icon-Facebook:before {
+        content: '\ea02';
+    }
+    .icon-Facebook_circle:before {
+        content: '\ea03';
+    }
+    .icon-Github:before {
+        content: '\ea04';
+    }
+    .icon-Linkedin_circle:before {
+        content: '\ea05';
+    }
+    .icon-Medium:before {
+        content: '\ea06';
+    }
+    .icon-Medium_circle:before {
+        content: '\ea07';
+    }
+    .icon-Reddit:before {
+        content: '\ea08';
+    }
+    .icon-Reddit_circle:before {
+        content: '\ea09';
+    }
+    .icon-Slack:before {
+        content: '\ea0a';
+    }
+    .icon-Telegram:before {
+        content: '\ea0b';
+    }
+    .icon-Twitter:before {
+        content: '\ea0c';
+    }
+    .icon-Twitter_circle:before {
+        content: '\ea0d';
+    }
+    .icon-Website:before {
+        content: '\ea0e';
+    }
+    
